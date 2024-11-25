@@ -1,0 +1,27 @@
+create table Products(
+	ProductID int,
+	ProductName varchar(300),
+	Category varchar(200),
+	Price varchar (100)
+)
+	
+select * from Products
+	
+create table sales(
+	SaleID int,
+	ProductID int,
+	QuantitySold int,
+	SaleDate int,
+	SalespersonID int
+)
+
+select * from sales
+
+create table Salespersons(
+	SalespersonID int,
+	SalespersonName varchar (200),
+	Region varchar (210)
+)
+
+select * from salespersons
+
